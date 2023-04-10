@@ -1,0 +1,4 @@
+.btn {
+    display: inline-block;
+    @include ellipsis(1);
+}

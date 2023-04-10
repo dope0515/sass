@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sass 파일구조</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!--reset css-->
+</head>
+<body>
+    <p>태조 이성계가 태어난 년도는?</p>
+<input type="text" id="answer">
+<button id="send-answer">제출</button>
+
+<script>
+  let sendBtn = document.querySelector('#send-answer');
+    sendBtn.addEventListener('click',function(){
+        let answer = document.querySelector('#answer').value;
+        if (answer != 1335) {
+            alert('바보야')
+        }
+        else {
+            alert('멋져')
+        }
+    });
+</script>
+</body>
+</html>
